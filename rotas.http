@@ -1,0 +1,28 @@
+POST https://trabalho-final-node.onrender.com/videos
+Content-Type: application/json
+
+{
+    "title": "Video node",
+    "description": "Esse é o primeiro video",
+    "duration": 180
+}
+
+###
+
+GET https://trabalho-final-node.onrender.com/videos
+
+
+###
+
+PUT https://trabalho-final-node.onrender.com/videos/c31e7c3d-9238-4d85-8db2-721db840c00f
+Content-Type: application/json
+
+{
+    "title": "Video 02",
+    "description": "Esse é o segundo video",
+    "duration": 180
+}
+
+###
+
+DELETE https://trabalho-final-node.onrender.com/videos/7b791641-730d-4448-bde8-170acea15509
